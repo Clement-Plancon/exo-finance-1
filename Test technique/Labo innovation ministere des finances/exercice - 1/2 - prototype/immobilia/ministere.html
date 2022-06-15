@@ -31,8 +31,6 @@
 
       <div class="menu-bar">
         <div class="menu">
-         
-
           <ul class="menu-links">
             <li class="nav-link">
               <a href="index.html">
@@ -42,54 +40,58 @@
             </li>
 
             <li class="nav-link">
-              <a href="statistiques.html" style="background-color:#695CFE">
-                <i class="bx bx-bar-chart-alt-2 icon" style="color:white;"></i>
-                <span class="text nav-text" style="color:white;">Départements</span>
+              <a href="statistiques.html">
+                <i class="bx bx-bar-chart-alt-2 icon"></i>
+                <span class="text nav-text">Départements</span>
               </a>
             </li>
 
             <li class="nav-link">
-              <a href="ministere.html" >
-                <i class="bx bx-pie-chart-alt icon"></i>
-                <span class="text nav-text" >Ministère</span>
+              <a href="ministere.html" style="background-color: #695cfe">
+                <i class="bx bx-pie-chart-alt icon" style="color: white"></i>
+                <span class="text nav-text" style="color: white"
+                  >Ministère</span
+                >
               </a>
             </li>
 
             <li class="nav-link">
-              <a href="year.html" >
-                <i class="bx bx-time icon" ></i>
+              <a href="year.html">
+                <i class="bx bx-time icon"></i>
                 <span class="text nav-text">Par années</span>
               </a>
             </li>
-
             <li class="nav-link">
               <a href="global.html">
                 <i class="bx bx-globe icon"></i>
                 <span class="text nav-text">Global</span>
               </a>
             </li>
-
-
           </ul>
         </div>
       </div>
     </nav>
     <div class="dashboard">
       <div class="dashboard-top">
-        <h1>Immobilia<i class='bx bxs-bar-chart-alt-2'></i></h1>
+        <h1>Immobilia<i class="bx bxs-bar-chart-alt-2"></i></h1>
         <p>Ventes immobilières réalisées par l'Etat entre 2013 et 2017</p>
       </div>
-      <main style="display: flex; justify-content:center; align-items:center;">
-        <section style="display: none;">
+      <main style="display: flex; justify-content: center; align-items: center">
+        <section style="display: none">
           <canvas id="barCanvasOne" aria-label="chart" role="img"></canvas>
         </section>
-        <section style="display: none;">
+        <section style="display: none">
           <canvas id="barCanvasTwo" aria-label="chart" role="img"></canvas>
         </section>
-        <section style=" width: 80%; height: 80%;" >
-          <canvas style="padding: 2em;" id="barCanvasThree" aria-label="chart" role="img"></canvas>
+        <section style="display: none">
+          <canvas
+            style="padding: 2em"
+            id="barCanvasThree"
+            aria-label="chart"
+            role="img"
+          ></canvas>
         </section>
-        <section style="display: none;">
+        <section style="width: 80%; height: 80%">
           <canvas id="barCanvasFourth" aria-label="chart" role="img"></canvas>
         </section>
       </main>
